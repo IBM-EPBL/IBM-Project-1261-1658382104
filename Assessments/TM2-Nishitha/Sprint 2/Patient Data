@@ -1,1 +1,55 @@
+<html>
+<head>
+   <title>details of heart patients</title>
+   <style>
+.a{
+ text-align:center
+}
+   
+   </style>
+</head>
+<body background="C:\Users\JoNishitha\Documents\img.jpg"> 
+<center>
+<h1>PATIENT DATA</h1>
+<label class="a">Full Name:<input type="text" name="uname"/>
+</label>
+</br></br>
+<label class="a">Mobile Number:<input type="number" name="mobile" maxlength="10"/>
+</label>
+</br></br>
+<label class="a">Age:<input type="number" name="age"  maxlength="3"/>
+</label>
+</br></br>
+<label class="a">Height:<input type="number" name="height"/>
+</label>
+</br></br>
+<label class="a">Weight:<input type="number" name="weight"/>
+</label>
+</br></br>
+<label class="a">D.O.B:<input type="date" name="bday"/>
+</label>
+</br></br>
+<label class="a">Address:<textarea></textarea></label>
+</br></br>
+<label class="a">Heart Rate:<input type="number" name="heartrate"/>
+</label>
+</br></br>
+<label>Gender:<input type="radio" name="gender"/>Male
+<input type="radio" name="gender"/>Female</label>
+</br></br>
+<label class="a">Health Issues:</label>
+
+
+  <input type="checkbox" name="issue1" value="blood pressure">Blood Pressure
+  
+  <input type="checkbox" name="issue2" value="cholesterol">Cholesterol
+ 
+  <input type="checkbox" name="issue3" value="diabetes">Diabetes
+  <br><br>
+
+  <input type="submit" value="Submit Data"/>
+</form>
+</center>
+</body>
+</html>
 
